@@ -48,8 +48,6 @@ public class Sorter implements Callable<List<Integer>> {
         List<Integer> sortedLeftArr = sortedLeftArrayFuture.get();
         List<Integer> sortedRightArr = sortedRightArrayFuture.get();
 
-        es.shutdown();
-
         return getIntegers(sortedLeftArr, sortedRightArr);
     }
 
