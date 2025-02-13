@@ -1,4 +1,4 @@
-package org.DSA.concurrent;
+package org.DSA.concurrency;
 
 import java.util.concurrent.Semaphore;
 
