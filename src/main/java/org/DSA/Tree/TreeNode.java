@@ -19,4 +19,11 @@ public class TreeNode {
         this.left = left;
         this.right = right;
     }
+
+    @Override
+    public String toString() {
+        return val + " -> (" +
+                "L:" + (left != null ? left.toString() : "null") + ", " +
+                "R:" + (right != null ? right.toString() : "null") + ")";
+    }
 }
