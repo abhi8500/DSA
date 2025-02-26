@@ -1,7 +1,5 @@
 package org.DSA.LinkedList;
 
-import org.DSA.TwoPointers.ClosestPair;
-
 public class MergeSort {
 
     public static void main(String[] args){

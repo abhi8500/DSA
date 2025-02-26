@@ -1,6 +1,8 @@
 package org.DSA.BIGO;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 class TwoSum {
     public static int[] twoSum(int[] nums, int target) {

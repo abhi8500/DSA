@@ -1,8 +1,5 @@
 package org.DSA;
 
-import org.DSA.BIGO.AProductB;
-import org.DSA.BIGO.PowerOf2UptoN;
-
 public class Main {
     public static void main(String[] args) {
 

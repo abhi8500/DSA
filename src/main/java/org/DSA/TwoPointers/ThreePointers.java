@@ -1,6 +1,5 @@
 package org.DSA.TwoPointers;
 
-import org.DSA.BackTracking.SubSets;
 import java.util.Arrays;
 
 public class ThreePointers {
