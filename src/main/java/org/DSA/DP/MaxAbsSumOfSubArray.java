@@ -20,22 +20,22 @@ public class MaxAbsSumOfSubArray {
     public static int maxAbsoluteSum(int[] nums) {
 
         int maxPositiveSum = 0;
-        int currentPosiveSum = 0;
+        int currentPositiveSum = 0;
 
         int maxNegativeSum = 0;
         int currentNegativeSum = 0;
 
         for (int num : nums) {
-            currentPosiveSum += num;
+            currentPositiveSum += num;
             currentNegativeSum += num;
-            if (currentPosiveSum < 0) {
-                currentPosiveSum = 0;
+            if (currentPositiveSum < 0) {
+                currentPositiveSum = 0;
             }
             if (currentNegativeSum > 0) {
                 currentNegativeSum = 0;
             }
             maxNegativeSum = Math.min(maxNegativeSum, currentNegativeSum);
-            maxPositiveSum = Math.max(maxPositiveSum, currentPosiveSum);
+            maxPositiveSum = Math.max(maxPositiveSum, currentPositiveSum);
         }
 
         return Math.max(maxPositiveSum, Math.abs(maxNegativeSum));
