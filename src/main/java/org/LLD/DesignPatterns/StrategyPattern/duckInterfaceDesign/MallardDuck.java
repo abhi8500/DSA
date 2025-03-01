@@ -1,4 +1,4 @@
-package org.LLD.DesignPatterns.Problems.duckInterfaceDesign;
+package org.LLD.DesignPatterns.StrategyPattern.duckInterfaceDesign;
 
 public class MallardDuck extends Duck  implements Flyable,Quackable{
 

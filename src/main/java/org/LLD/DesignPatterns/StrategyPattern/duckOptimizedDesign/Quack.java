@@ -1,4 +1,4 @@
-package org.LLD.DesignPatterns.Problems.duckOptimizedDesign;
+package org.LLD.DesignPatterns.StrategyPattern.duckOptimizedDesign;
 
 public class Quack implements QuackBehaviour{
     @Override

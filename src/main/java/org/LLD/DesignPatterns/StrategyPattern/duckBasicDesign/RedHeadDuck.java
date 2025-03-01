@@ -1,4 +1,4 @@
-package org.LLD.DesignPatterns.Problems.duckBasicDesign;
+package org.LLD.DesignPatterns.StrategyPattern.duckBasicDesign;
 
 public class RedHeadDuck extends Duck {
 

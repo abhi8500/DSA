@@ -1,4 +1,4 @@
-package org.LLD.DesignPatterns.Problems.duckOptimizedDesign;
+package org.LLD.DesignPatterns.StrategyPattern.duckOptimizedDesign;
 
 public class Client {
 
@@ -9,6 +9,11 @@ public class Client {
         /// We should not program to an
         /// implementation. But what are we doing in that constructor? We’re making a
         /// new instance of a concrete Quack implementation class!
+
+        /// This is the implementation of strategy design pattern
+        /// The Strategy Pattern defines a family of algorithms,
+        /// encapsulates each one, and makes them interchangeable.
+        /// Strategy lets the algorithm vary independently from clients that use it
 
         Duck duck = new MallardDuck();
         duck.display();
