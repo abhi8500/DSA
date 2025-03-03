@@ -1,4 +1,4 @@
-package org.HLD.Cache;
+package org.HLD.Caching;
 
 public class FIFOCache {
 }
