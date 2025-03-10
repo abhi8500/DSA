@@ -19,7 +19,7 @@ public class SerializableSingleton  implements Serializable {
      */
     public static SerializableSingleton getInstance() {
         if (instance == null) {
-            synchronized (instance) {
+            synchronized (SerializableSingleton.class) {
                 if (instance == null) {
                     instance = new SerializableSingleton();
                 }
