@@ -56,7 +56,7 @@ public class FileBasedConfigurationManagerImpl extends FileBasedConfigurationMan
     public static FileBasedConfigurationManager getInstance() {
         // TODO Auto-generated method stub
         if (instance == null) {
-            synchronized (instance) {
+            synchronized (FileBasedConfigurationManagerImpl.class) {
                 if (instance == null) {
                     instance = new FileBasedConfigurationManagerImpl();
                 }
