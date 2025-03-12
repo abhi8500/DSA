@@ -1,4 +1,4 @@
-package org.LLD.DesignPatterns.Builder.message;
+package org.LLD.DesignPatterns.Builder;
 
 
 import java.lang.annotation.ElementType;

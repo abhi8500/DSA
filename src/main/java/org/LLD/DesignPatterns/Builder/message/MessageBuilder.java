@@ -1,6 +1,8 @@
 package org.LLD.DesignPatterns.Builder.message;
 
 
+import org.LLD.DesignPatterns.Builder.WithBuilder;
+
 @WithBuilder
 public class MessageBuilder {
 
@@ -18,6 +20,7 @@ public class MessageBuilder {
 
     // Static method to get a builder instance
     public static Builder getBuilder() {
+
         return new Builder();
     }
 
