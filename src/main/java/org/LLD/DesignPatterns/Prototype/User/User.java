@@ -1,6 +1,8 @@
 package org.LLD.DesignPatterns.Prototype.User;
 
-public class User implements ClonableObject<User>{
+import org.LLD.DesignPatterns.Prototype.ClonableObject;
+
+public class User implements ClonableObject<User> {
 
     private long userId;
 

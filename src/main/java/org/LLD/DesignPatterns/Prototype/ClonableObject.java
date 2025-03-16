@@ -1,4 +1,4 @@
-package org.LLD.DesignPatterns.Prototype.User;
+package org.LLD.DesignPatterns.Prototype;
 
 public interface ClonableObject<T> {
     T cloneObject();
