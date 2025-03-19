@@ -1,6 +1,5 @@
 package org.LLD.SOLID.BirdV3;
 
-import Solid.BirdV2.FlyingBird;
 
 public class Pigeon extends BirdV3 implements Flyable {
 
