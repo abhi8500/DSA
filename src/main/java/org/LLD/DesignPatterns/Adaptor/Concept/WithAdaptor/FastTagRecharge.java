@@ -1,4 +1,4 @@
-package org.LLD.DesignPatterns.Adaptor.WithAdaptor;
+package org.LLD.DesignPatterns.Adaptor.Concept.WithAdaptor;
 
 
 public class FastTagRecharge {

@@ -1,22 +1,29 @@
-package org.LLD.DesignPatterns.Adaptor.WithoutAdaptor;
+package org.LLD.DesignPatterns.Adaptor.Concept.WithAdaptor;
+
+
 
 public class PhonePe {
 
     /**
-     * Here in this phonepe API we are tightly coupled with YES Bank API
-     * If suddenly we want to change to ICICI Bank API then we have to change the logic at many places
+     * Here in this phonepe API we are loosely coupled with YES Bank API through BankAPI Interface
      *
      */
-    YesBankAPI yb = new YesBankAPI();
+
+    BankApi bankApi;
+    PhonePe(BankApi bankApi){
+        this.bankApi = bankApi;
+    }
+
     PhonePeLoan phonePeLoan = new PhonePeLoan();
     FastTagRecharge fastTagRecharge = new FastTagRecharge();
 
     boolean checkLoanEligibility(){
-        return phonePeLoan.loanCheck(yb);
+
+        return phonePeLoan.loanCheck(bankApi);
     }
 
     boolean fastTagRecharge(int amount){
-        if(fastTagRecharge.recharge(yb,amount)>=0){
+        if(fastTagRecharge.recharge(bankApi,amount)>=0){
             System.out.println("Recharge SuccessFull");
             return true;
         }else{

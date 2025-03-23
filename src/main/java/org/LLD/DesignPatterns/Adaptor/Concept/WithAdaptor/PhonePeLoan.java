@@ -1,6 +1,4 @@
-package org.LLD.DesignPatterns.Adaptor.WithAdaptor;
-
-import org.LLD.DesignPatterns.Adaptor.WithoutAdaptor.YesBankAPI;
+package org.LLD.DesignPatterns.Adaptor.Concept.WithAdaptor;
 
 public class PhonePeLoan {
 

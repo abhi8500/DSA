@@ -1,4 +1,4 @@
-package org.LLD.DesignPatterns.Adaptor.WithAdaptor;
+package org.LLD.DesignPatterns.Adaptor.Concept.WithoutAdaptor;
 
 public class YesBankAPI {
 
