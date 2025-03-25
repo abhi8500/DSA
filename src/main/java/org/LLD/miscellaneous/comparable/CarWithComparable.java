@@ -1,5 +1,6 @@
 package org.LLD.miscellaneous.comparable;
 
+
 public class CarWithComparable implements Comparable<CarWithComparable>{
 
     private int speed;
@@ -19,6 +20,5 @@ public class CarWithComparable implements Comparable<CarWithComparable>{
     public int compareTo(CarWithComparable other){
         return this.speed - other.speed;
     }
-
 
 }
