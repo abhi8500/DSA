@@ -35,7 +35,7 @@ public class Client {
         /**
          * The below approach of object creation solved all the problems which are mentioned even OCP Principle also
          * But with a lot of extra code , But the implementation cannot be like different types of children, it can be based on strategy
-         * Like in VideoGame Application there is a obstacle it can be tree,snake or stone , now factory method implementation can be done using strategies
+         * Like in VideoGame Application there is an obstacle it can be tree,snake or stone , now factory method implementation can be done using strategies
          * If a user wants Balanced Obstacle from level 1 to level 5 then the factory method implementation is responsible to provide the obstacle  out of 3 we have
          * balanced and after level 5 obstacles are random the  another factory implementation to give random obstacles.
          * So the final point is the implementation is just responsible for creating objects. But not to follow OCP principle
